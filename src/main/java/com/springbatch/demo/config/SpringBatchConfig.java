@@ -94,7 +94,7 @@ public class SpringBatchConfig {
                 .reader(listItemReader(null))
                 .processor(processor())
                 .writer(writer())
-                .taskExecutor(taskExecutor())
+              //  .taskExecutor(taskExecutor())
                 .build();
     }
 
